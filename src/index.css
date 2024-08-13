@@ -3,11 +3,18 @@
 @tailwind utilities;
 
 @layer base {
-    @font-face {
-      font-family: 'Ggsans-normal';
-      src: url(./page_content/fonts/652736292cbf8363b43d077a_ggsans-Normal.woff2) format('woff2');
-    }
+  @font-face {
+    font-family: "Ggsans-normal";
+    src: url(./page_content/fonts/652736292cbf8363b43d077a_ggsans-Normal.woff2)
+      format("woff2");
   }
+
+  @font-face {
+    font-family: "abcgintonord-extrabold";
+    src: url(./page_content/fonts/65273da62cbf8363b445b021_abcgintonord-800-extrabold.woff2)
+      format("woff2");
+  }
+}
 
 @layer components {
   .background-style {
@@ -17,6 +24,16 @@
   }
 
   .font-Ggsans {
-    font-family: "Ggsans-normal", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Ggsans-normal", "Gill Sans", "Gill Sans MT", Calibri,
+      "Trebuchet MS", sans-serif;
+  }
+
+  .font-abcgintonord {
+    font-family: "abcgintonord-extrabold", "Gill Sans", "Gill Sans MT", Calibri,
+      "Trebuchet MS", sans-serif;
+  }
+
+  .none {
+    display: none;
   }
 }
