@@ -1,11 +1,11 @@
+import { DownloadSvg } from "./returnSvg";
 import bgImage1 from "./page_content/pictures/664daa37ea162cadf9603500_Art.webp";
-import bgImage2 from "./page_content/pictures/664dae3aa8fa28593aa47cc6_CHARACTERS FULL.webp"
-import Download from "./page_content/pictures/6582b262413a0600bad70006_download.svg";
+import bgImage2 from "./page_content/pictures/664dae3aa8fa28593aa47cc6_CHARACTERS FULL.webp";
 
 export default function Header() {
   return (
-    <div className="w-[80%] lg:w-[90%] max-w-[1300px] mx-auto flex flex-col lg:flex-row flex-wrap justify-center items-center p-6">
-      <div className="order-2 lg:order-1 lg:w-[40%]">
+    <div className="w-[80%] lg:w-[90%] max-w-[1300px] mx-auto flex flex-col lg:flex-row flex-wrap justify-center items-center px-6">
+      <div className="order-2 lg:order-1 lg:w-[37%]">
         <h1 className="text-white font-abcgintonord uppercase text-[27px] min-[780px]:text-[35px] lg:text-[44px] text-center lg:text-start mb-3">
           Group chat that’s all fun & games
         </h1>
@@ -22,7 +22,7 @@ export default function Header() {
       <div className="flex flex-col min-[800px]:flex-row items-center gap-[25px] order-3 mt-[45px]">
         <a href="#">
           <button className="font-Ggsans flex gap-3 lg:font-bold text-black text-[20px] bg-white py-3 px-6 rounded-full">
-            <img src={Download} alt="download svg" className="text-black" />
+            <DownloadSvg color={"#000000"} />
             Download for Windows
           </button>
         </a>

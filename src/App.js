@@ -2,7 +2,7 @@ import Header from "./Header";
 import NavBar from "./Navbar";
 
 function Background({ children }) {
-  return <div className="background-style w-full">{children}</div>;
+  return <div className="background-style w-full relative">{children}</div>;
 }
 
 function Boody() {

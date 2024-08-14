@@ -5,7 +5,22 @@
 @layer base {
   @font-face {
     font-family: "Ggsans-normal";
-    src: url(./page_content/fonts/652736292cbf8363b43d077a_ggsans-Normal.woff2)
+    src: url(./page_content/fonts/652736292cbf8363b43d077a_ggsans-Normal.woff2),
+      format("woff2");
+  }
+  @font-face {
+    font-family: "Ggsans-bold";
+    src: url(./page_content/fonts//652737c30510e4ad4333a424_ggsans-Bold.woff2),
+      format("woff2");
+  }
+  @font-face {
+    font-family: "Ggsans-medium";
+    src: url(./page_content/fonts/652737c319ba7da75394c4cb_ggsans-Medium.woff2),
+      format("woff2");
+  }
+  @font-face {
+    font-family: "Ggsans-semibold";
+    src: url(./page_content/fonts/652737c319ba7da75394c4dc_ggsans-Semibold.woff2),
       format("woff2");
   }
 
@@ -17,6 +32,24 @@
 }
 
 @layer components {
+  :root::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .safetyLinks::-webkit-scrollbar{
+    width: 4px;
+    background: #ffffff;
+    border-radius: 50%;
+    background-color: #5865F2;
+    box-shadow: none;
+  }
+
+  .safetyLinks::-webkit-scrollbar-thumb {
+    background: #ffffff; 
+    border-radius: 10px;
+    box-shadow: none;
+  }
+   
   .background-style {
     background-image: url("./page_content/bg_images/background-art__2__720.png");
     background-repeat: no-repeat;
@@ -25,6 +58,21 @@
 
   .font-Ggsans {
     font-family: "Ggsans-normal", "Gill Sans", "Gill Sans MT", Calibri,
+      "Trebuchet MS", sans-serif;
+  }
+
+  .font-Ggsans-medium {
+    font-family: "Ggsans-medium", "Gill Sans", "Gill Sans MT", Calibri,
+      "Trebuchet MS", sans-serif;
+  }
+
+  .font-Ggsans-semibold {
+    font-family: "Ggsans-semibold", "Gill Sans", "Gill Sans MT", Calibri,
+      "Trebuchet MS", sans-serif;
+  }
+
+  .font-Ggsans-extrabold {
+    font-family: "Ggsans-extrabold", "Gill Sans", "Gill Sans MT", Calibri,
       "Trebuchet MS", sans-serif;
   }
 
