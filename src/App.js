@@ -1,5 +1,6 @@
 import Header from "./Header";
 import NavBar from "./Navbar";
+import SectionContainer from "./SectionContainer";
 
 function Background({ children }) {
   return <div className="background-style w-full relative">{children}</div>;
@@ -15,6 +16,7 @@ export default function Website() {
       <Background>
         <NavBar />
         <Header />
+        <SectionContainer />
         <Boody />
       </Background>
     </>
