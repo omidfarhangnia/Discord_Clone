@@ -81,6 +81,12 @@
       "Trebuchet MS", sans-serif;
   }
 
+  .bg-star {
+    background-image: url("./page_content/bg_images/664f212d639f390c3db3284a_Texture 5.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .none {
     display: none;
   }

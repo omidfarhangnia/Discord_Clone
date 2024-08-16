@@ -17,7 +17,6 @@ export default function Website() {
         <NavBar />
         <Header />
         <SectionContainer />
-        <Boody />
       </Background>
     </>
   );
