@@ -172,9 +172,11 @@ function Offcanvas({ setIsBurgerOpen }) {
       ) : (
         <div>
           <div className="w-full border-b-[1px] border-solid border-slate-200 pb-[30px]">
-            <div className="w-[120px]">
-              <LogoSvg color={"black"} />
-            </div>
+            <a href="#">
+              <div className="w-[120px]">
+                <LogoSvg color={"black"} />
+              </div>
+            </a>
           </div>
           <nav className="mx-2 my-4">
             <ul>
@@ -214,8 +216,8 @@ export default function NavBar() {
   const handleGiveWidth = () => {
     const width = window.innerWidth;
     setPageWidth(width);
-    if(width >= 992 ) {
-      setIsBurgerOpen(false)
+    if (width >= 992) {
+      setIsBurgerOpen(false);
     }
   };
 
@@ -239,7 +241,9 @@ export default function NavBar() {
       >
         <div className="max-w-[1200px] w-full flex justify-between items-center">
           <div className="w-[124px] h-full object-contain">
-            <LogoSvg color={"white"} />
+            <a href="#">
+              <LogoSvg color={"white"} />
+            </a>
           </div>
 
           {pageWidth >= 992 && (

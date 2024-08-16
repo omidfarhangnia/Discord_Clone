@@ -51,11 +51,11 @@ const sectionsData = [
 function Section({ data }) {
   return (
     <section
-      className={`w-[85%] rounded-[40px] min-[1250px]:rounded-[60px] min-[1250px]:max-w-[1300px] flex flex-col ${
+      className={`glass-bg w-[85%] rounded-[40px] min-[1250px]:rounded-[60px] min-[1250px]:max-w-[1300px] flex flex-col ${
         data.videoLocation === "right"
           ? "min-[760px]:flex-row"
           : "min-[760px]:flex-row-reverse"
-      } gap-[40px] items-center justify-center min-[1250px]:justify-between bg-gradient-to-tl from-[#fff3] to-[#ffffff12] p-[15px] min-[760px]:py-[60px] min-[760px]:px-[25px] min-[1250px]:p-[15px] shadow-[0_2px_52px_#452a7c1a,inset_0_0_0_3px_#fff3]`}
+      } gap-[40px] items-center justify-center min-[1250px]:justify-between p-[15px] min-[760px]:py-[60px] min-[760px]:px-[25px] min-[1250px]:p-[15px]`}
     >
       <div className="min-[760px]:w-[40%] min-[1250px]:w-[35%] mx-[45px] min-[1250px]:mx-[45px]">
         <h2 className="font-abcgintonord text-white text-[27px] uppercase mt-[50px] min-[760px]:mt-0 min-[1250px]:text-[2.2rem] leading-[1.2]">

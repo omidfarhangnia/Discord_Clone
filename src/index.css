@@ -50,6 +50,10 @@
     box-shadow: none;
   }
    
+  .glass-bg {
+    @apply bg-gradient-to-tl from-[#fff3] to-[#ffffff12] shadow-[0_2px_52px_#452a7c1a,inset_0_0_0_3px_#fff3]
+  }
+
   .background-style {
     background-image: url("./page_content/bg_images/background-art__2__720.png");
     background-repeat: no-repeat;
