@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# 💬 کلون صفحه اصلی دیسکورد | Discord Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+این پروژه، بازسازی صفحه اصلی وب‌سایت دیسکورد با تمرکز بر پیاده‌سازی دقیق جزئیات طراحی (Pixel-Perfect) و واکنش‌گرایی کامل است. این پروژه نمونه‌ای عالی برای نمایش مهارت در استفاده از **React** و **Tailwind CSS** برای ساخت رابط‌های کاربری مدرن و پیچیده است.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+### 🔗 لینک‌ها
 
-### `npm start`
+- **ریپازیتوری گیت‌هاب:** [https://github.com/omidfarhangnia/Discord_Clone](https://github.com/omidfarhangnia/Discord_Clone)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ ویژگی‌های کلیدی
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **🎨 پیاده‌سازی Pixel-Perfect:** تلاش برای بازسازی رابط کاربری با حداکثر شباهت به وب‌سایت اصلی دیسکورد.
+- **📱 طراحی کاملاً واکنش‌گرا:** نمایش بی‌نقص در تمام دستگاه‌ها از موبایل و تبلت گرفته تا دسکتاپ‌های بزرگ.
+- **🏗️ ساختار کامپوننت‌محور:** تفکیک UI به کامپوننت‌های قابل استفاده مجدد در `React`.
+- **💨 استایل‌دهی بهینه با Tailwind:** استفاده از کلاس‌های کاربردی `Tailwind CSS` برای توسعه سریع و استایل‌دهی مدرن.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ پشته فناوری (Tech Stack)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| بخش          | فناوری‌های استفاده شده                     |
+|--------------|--------------------------------------------|
+| **کتابخانه UI** | `React`                                    |
+| **فریمورک CSS** | `Tailwind CSS`                             |
+| **زبان** | `JavaScript (ES6+)` / `TypeScript`         |
+| **ابزار ساخت** | `Vite` یا `Create React App` (پیشنهادی) |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## کلون کردن ریپازیتوری ##
+   ```bash
+   git clone [https://github.com/omidfarhangnia/Discord_Clone.git](https://github.com/omidfarhangnia/Discord_Clone.git)
+   cd Discord_Clone
